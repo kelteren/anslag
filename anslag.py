@@ -1,18 +1,18 @@
 """Summary
 
 Attributes:
-    calibers (TYPE): Description
-    cartridges (TYPE): Description
-    color_map (TYPE): Description
-    colors (TYPE): Description
-    energies (TYPE): Description
-    expansion (TYPE): Description
+    calibers (TYPE):        List of calibers for each cartridge
+    cartridges (TYPE):      List of dictionaries describing cartrigdes and their essential parameters 
+    color_map (TYPE):       Description
+    colors (TYPE):          Description
+    energies (TYPE):        List of energies of bullets at 100 meters
+    expansion (TYPE):       Whether the bullet is expanding or not
     forskriftstekst (TYPE): Description
-    labels (TYPE): Description
-    marker_sizes (TYPE): Description
-    markers (TYPE): Description
-    velocities (TYPE): Description
-    weights (TYPE): Description
+    labels (TYPE):          List of labels describing the brand and make of the cartridge
+    marker_sizes (TYPE):    List of marker sizes indicating bullet weight
+    markers (TYPE):         List of markers indicating X-panding bullets
+    velocities (TYPE):      List of bullet muzzle velocities
+    weights (TYPE):         List of bullet weights
 """
 import matplotlib.pyplot as plt
 
