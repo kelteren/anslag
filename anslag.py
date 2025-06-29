@@ -18,8 +18,8 @@ import matplotlib.pyplot as plt
 
 # Define data for cartridges as a list
 cartridges = [
-    # {"label": "Norma ECO Power-22 grs",     "weight":1.55,  "grains":"22",   "cal":".22LR",     "muzzle_velocity":520,   "exp":"no",   "lead_free": None,  "energy_100m": 76},
-    # {"label": "Norma 17grs V-Max",          "weight":1.1,   "grains":"17",   "cal":".17HMR",    "muzzle_velocity":777,   "exp":"yes",  "lead_free": None,  "energy_100m": 177.6},
+    {"label": "Norma ECO Power-22 grs",     "weight":1.55,  "grains":"22",   "cal":".22LR",     "muzzle_velocity":520,   "exp":"no",   "lead_free": None,  "energy_100m": 76},
+    {"label": "Norma 17grs V-Max",          "weight":1.1,   "grains":"17",   "cal":".17HMR",    "muzzle_velocity":777,   "exp":"yes",  "lead_free": None,  "energy_100m": 177.6},
     {"label": "S&B 223Rem 55 SP",           "weight": 3.6,  "grains": "55",  "cal": ".223",     "muzzle_velocity": 1006, "exp": "yes", "lead_free": None,  "energy_100m": 1370},
     {"label": "Sako Gamehead 55grs",        "weight": 3.6,  "grains": "55",  "cal": ".223",     "muzzle_velocity": 970,  "exp": "yes", "lead_free": None,  "energy_100m": 1226},
     {"label": "Norma Oryx",                 "weight": 3.6,  "grains": "55",  "cal": ".223",     "muzzle_velocity": 950,  "exp": "yes", "lead_free": None,  "energy_100m": 1087},
