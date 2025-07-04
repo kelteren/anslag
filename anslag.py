@@ -1,13 +1,16 @@
-"""Summary
+"""Script that plots the kinetic energy and muzzle velocity of various 
+bullets/cartridges as a scatterplot. Additionally the bullets are show as 
+either expanding, and grouped by caliber using colours. The two regulation 
+limits to impact energy are shown as lines in the plot.
 
 Attributes:
     calibers (TYPE):        List of calibers for each cartridge
     cartridges (TYPE):      List of dictionaries describing cartrigdes and their essential parameters 
-    color_map (TYPE):       Description
-    colors (TYPE):          Description
+    color_map (TYPE):       Colours used to distinguish the calibers in the plot
+    colors (TYPE):          Colours used to distinguish the calibers in the plot
     energies (TYPE):        List of energies of bullets at 100 meters
     expansion (TYPE):       Whether the bullet is expanding or not
-    forskriftstekst (TYPE): Description
+    forskriftstekst (TYPE): Regulation text containing the current requirements 
     labels (TYPE):          List of labels describing the brand and make of the cartridge
     marker_sizes (TYPE):    List of marker sizes indicating bullet weight
     markers (TYPE):         List of markers indicating X-panding bullets
