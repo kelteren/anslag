@@ -92,6 +92,7 @@ for i in range(len(cartridges)):
         alpha=0.7
     )
 
+# TODO add check whether bullet is lead_free and apply appropriate weigh limit
 # Add text labels, with red color for low-weight bullets
 for i, label in enumerate(labels):
     text_color = 'red' if weights[i] < 9 else 'black'
@@ -125,7 +126,7 @@ plt.scatter([], [], color='black', marker='o', s=100, label='Ikke-ekspanderende'
 # plt.legend(title="Caliber and Expansion")
 plt.legend(title="Kaliber og ekspansjon")
 
-# skriver ut forskriftsteksten til konsoll
+# skriver ut forskriftsteksten til konsoll før plottet vises
 forskriftstekst = """
 Forskrift om utøvelse av jakt, felling og fangst
 Dato    FOR-2002-03-22-313
